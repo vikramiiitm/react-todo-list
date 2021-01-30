@@ -1,4 +1,5 @@
 import React from 'react';
+import TodoForm from './TodoForm';
 import Todo from './TodoForm'
 
 const Todo = () => {
@@ -6,6 +7,7 @@ const Todo = () => {
     return (
         <div>
             <h1>What's the plan fopr today?</h1>
+            <TodoForm/>
         </div>
     );
 }
